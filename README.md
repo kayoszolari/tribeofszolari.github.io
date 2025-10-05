@@ -1,1 +1,1 @@
-# tribeofszolari.github.io
+# tribeofszri.github.io
