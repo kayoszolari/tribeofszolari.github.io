@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marcelo Design X — Web Design & Branding</title>
+  <meta name="description" content="Web design, branding, SEO, and digital strategy to grow your business." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
 
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">Marcelo Design X</a>
+      <button class="nav-toggle" aria-label="Open menu">☰</button>
+      <nav class="site-nav">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a class="btn btn-small" href="#contact">Get a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Design that drives growth.</h1>
+        <p>Strategic websites, clear branding, and SEO that actually converts.</p>
+        <a class="btn" href="#contact">Start your project</a>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/hero.jpg" alt="Modern web design preview">
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="grid cards">
+        <article class="card">
+          <h3>Web design</h3>
+          <p>Pixel-perfect, responsive sites built for speed and clarity.</p>
+        </article>
+        <article class="card">
+          <h3>Branding</h3>
+          <p>Logos, colors, and messaging that make your identity unmistakable.</p>
+        </article>
+        <article class="card">
+          <h3>SEO</h3>
+          <p>On-page and technical SEO that lifts you in search rankings.</p>
+        </article>
+        <article class="card">
+          <h3>E‑commerce</h3>
+          <p>Conversion-ready stores with smooth checkout experiences.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="section section-alt">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="grid portfolio-grid">
+        <a class="portfolio-item" href="assets/images/portfolio1.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/portfolio1.jpg" alt="Project 1" />
+          <span class="overlay">Project 1 — Brand & Site</span>
+        </a>
+        <a class="portfolio-item" href="assets/images/portfolio2.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/portfolio2.jpg" alt="Project 2" />
+          <span class="overlay">Project 2 — E‑commerce</span>
+        </a>
+        <a class="portfolio-item" href="assets/images/portfolio3.jpg" target="_blank" rel="noopener">
+          <img src="assets/images/portfolio3.jpg" alt="Project 3" />
+          <span class="overlay">Project 3 — SEO</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <div class="about-wrap">
+        <img class="about-image" src="assets/images/about.jpg" alt="Agency workspace" />
+        <div>
+          <p>We’re a boutique studio focused on clarity, speed, and measurable impact. Every decision is intentional—from typography to site architecture.</p>
+          <p>We partner with founders to design digital experiences that feel premium and convert consistently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section section-alt">
+    <div class="container">
+      <h2>Request a quote</h2>
+      <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
+        <div class="grid form-grid">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+          <div class="form-field">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Select</option>
+              <option>Web design</option>
+              <option>Branding</option>
+              <option>SEO</option>
+              <option>E‑commerce</option>
+            </select>
+          </div>
+          <div class="form-field form-field-full">
+            <label for="message">Project details</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+        </div>
+        <button class="btn" type="submit">Send request</button>
+        <p class="form-note">By submitting, you agree to be contacted about your project.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Marcelo Design X. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
