@@ -45,23 +45,19 @@
     <div class="container">
       <h2>Services</h2>
       <div class="grid cards">
-        <article class="card">
-          <h3>Web design</h3>
-          <p>Pixel-perfect, responsive sites built for speed and clarity.</p>
-        </article>
-        <article class="card">
-          <h3>Branding</h3>
-          <p>Logos, colors, and messaging that make your identity unmistakable.</p>
-        </article>
-        <article class="card">
-          <h3>SEO</h3>
-          <p>On-page and technical SEO that lifts you in search rankings.</p>
-        </article>
-        <article class="card">
-          <h3>E‑commerce</h3>
-          <p>Conversion-ready stores with smooth checkout experiences.</p>
-        </article>
+        <article class="card"><h3>Web design</h3><p>Responsive, fast, and intentional websites.</p></article>
+        <article class="card"><h3>Branding</h3><p>Logos, colors, and messaging that stand out.</p></article>
+        <article class="card"><h3>SEO</h3><p>On‑page and technical SEO for visibility.</p></article>
+        <article class="card"><h3>E‑commerce</h3><p>Conversion‑ready online stores.</p></article>
       </div>
+    </div>
+  </section>
+
+  <!-- CTA Strip after Services -->
+  <section class="section-cta">
+    <div class="container">
+      <h3>Ready to build something intentional?</h3>
+      <a class="btn" href="#contact">Request a quote</a>
     </div>
   </section>
 
@@ -70,18 +66,9 @@
     <div class="container">
       <h2>Portfolio</h2>
       <div class="grid portfolio-grid">
-        <a class="portfolio-item" href="assets/images/portfolio1.jpg" target="_blank" rel="noopener">
-          <img src="assets/images/portfolio1.jpg" alt="Project 1" />
-          <span class="overlay">Project 1 — Brand & Site</span>
-        </a>
-        <a class="portfolio-item" href="assets/images/portfolio2.jpg" target="_blank" rel="noopener">
-          <img src="assets/images/portfolio2.jpg" alt="Project 2" />
-          <span class="overlay">Project 2 — E‑commerce</span>
-        </a>
-        <a class="portfolio-item" href="assets/images/portfolio3.jpg" target="_blank" rel="noopener">
-          <img src="assets/images/portfolio3.jpg" alt="Project 3" />
-          <span class="overlay">Project 3 — SEO</span>
-        </a>
+        <a class="portfolio-item" href="assets/images/portfolio1.jpg"><img src="assets/images/portfolio1.jpg" alt="Project 1"><span class="overlay">Project 1</span></a>
+        <a class="portfolio-item" href="assets/images/portfolio2.jpg"><img src="assets/images/portfolio2.jpg" alt="Project 2"><span class="overlay">Project 2</span></a>
+        <a class="portfolio-item" href="assets/images/portfolio3.jpg"><img src="assets/images/portfolio3.jpg" alt="Project 3"><span class="overlay">Project 3</span></a>
       </div>
     </div>
   </section>
@@ -100,22 +87,23 @@
     </div>
   </section>
 
+  <!-- CTA Strip after About -->
+  <section class="section-cta">
+    <div class="container">
+      <h3>Let’s design your next big move.</h3>
+      <a class="btn" href="#contact">Work with us</a>
+    </div>
+  </section>
+
   <!-- Contact -->
   <section id="contact" class="section section-alt">
     <div class="container">
       <h2>Request a quote</h2>
       <form class="contact-form" action="https://formspree.io/f/yourFormID" method="POST">
         <div class="grid form-grid">
-          <div class="form-field">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required />
-          </div>
-          <div class="form-field">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required />
-          </div>
-          <div class="form-field">
-            <label for="service">Service</label>
+          <div class="form-field"><label for="name">Name</label><input id="name" name="name" type="text" required /></div>
+          <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" required /></div>
+          <div class="form-field"><label for="service">Service</label>
             <select id="service" name="service" required>
               <option value="">Select</option>
               <option>Web design</option>
@@ -124,14 +112,18 @@
               <option>E‑commerce</option>
             </select>
           </div>
-          <div class="form-field form-field-full">
-            <label for="message">Project details</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-          </div>
+          <div class="form-field form-field-full"><label for="message">Project details</label><textarea id="message" name="message" rows="5" required></textarea></div>
         </div>
         <button class="btn" type="submit">Send request</button>
-        <p class="form-note">By submitting, you agree to be contacted about your project.</p>
       </form>
+    </div>
+  </section>
+
+  <!-- Final CTA before Footer -->
+  <section class="section-cta">
+    <div class="container">
+      <h3>Don’t leave without starting your project</h3>
+      <a class="btn" href="#contact">Get Started Now</a>
     </div>
   </section>
 
